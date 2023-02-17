@@ -10,3 +10,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+body{
+    background: rgb(154, 154, 238);
+}
+button{border: none;
+color:red;
+background: rgb(154, 154, 238);}
+input{border: none;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-bottom: 20px;
+width: 230px;
+}
+li{list-style: none;
+width: 230px;text-align: left;}
