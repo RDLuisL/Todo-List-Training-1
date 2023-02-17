@@ -16,6 +16,8 @@ const Home = () => {
 	//e.preventDefault() para evitar que se recargue la página cuando se envía el formulario. Si no se 
 	//pierde el valor escrito en el formulario		
 			const tareas = (e)=>{e.preventDefault();
+	
+	//setbtex("") inicializa el valor en un string vacio
 			setListadetareas([...listadetareas,btex]); setbtex("")
 			}
 
